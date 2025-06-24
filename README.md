@@ -34,7 +34,7 @@ quiz-game/
 ```bash
 git clone https://github.com/your-username/quiz-game.git
 ```
-##🧩 Future Improvements
+## 🧩 Future Improvements
 🟡 Add scoring and result summary
 
 🔢 Timer for each question
@@ -43,5 +43,5 @@ git clone https://github.com/your-username/quiz-game.git
 
 🌐 Multi-language support
 
-##🙌 Author
+## 🙌 Author
 Vajinepalli Bharath Chandra
