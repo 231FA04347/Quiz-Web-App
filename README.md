@@ -30,9 +30,9 @@ quiz-game/
 
 ## 🛠️ How to Run Locally
 
-1. Clone the repository:
+https://qwiz-game-app.netlify.app/
 ```bash
-git clone https://github.com/your-username/quiz-game.git
+
 ```
 ## 🧩 Future Improvements
 🟡 Add scoring and result summary
