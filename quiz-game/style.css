@@ -1,0 +1,122 @@
+
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: linear-gradient(135deg, #f7fafc 0%, #d7e1ec 100%);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.quiz-container {
+  background: #ffffffcc;
+  padding: 32px 28px 28px 28px;
+  border-radius: 18px;
+  box-shadow: 0 8px 32px 0 rgba(60, 60, 120, 0.18);
+  width: 92%;
+  max-width: 420px;
+  text-align: center;
+  border: 1px solid #e4e9f7;
+  backdrop-filter: blur(2px);
+}
+
+h1 {
+  color: #374151;
+  margin-top: 0;
+  margin-bottom: 18px;
+  font-size: 2.1rem;
+  letter-spacing: 0.03em;
+}
+
+#question {
+  margin-bottom: 22px;
+  color: #3a3f4a;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 18px;
+}
+
+ul li {
+  background-color: #e6ecf8;
+  margin: 12px 0;
+  padding: 13px;
+  border-radius: 7px;
+  cursor: pointer;
+  transition: background 0.25s, color 0.25s, box-shadow 0.2s;
+  font-size: 1rem;
+  box-shadow: 0 2px 8px rgba(90, 113, 208, 0.03);
+  border: 1px solid transparent;
+}
+
+ul li:hover:not(.selected):not(.correct):not(.incorrect) {
+  background-color: #d0d9f6;
+  color: #393e6b;
+}
+
+ul li.selected {
+  background: linear-gradient(90deg, #5c63ff 80%, #6ba8ff);
+  color: #fff;
+  border: 1.5px solid #5c63ff;
+  font-weight: 600;
+  box-shadow: 0 2px 12px rgba(92, 99, 255, 0.13);
+}
+
+ul li.correct {
+  background: linear-gradient(90deg, #42e695 80%, #3bb2b8);
+  color: #fff;
+  border: 1.5px solid #36b37e;
+  font-weight: 600;
+}
+
+ul li.incorrect {
+  background: linear-gradient(90deg, #ff647c 80%, #ff9966);
+  color: #fff;
+  border: 1.5px solid #ff647c;
+  font-weight: 600;
+}
+
+.hidden {
+  display: none !important;
+}
+
+button {
+  background: linear-gradient(90deg, #5c63ff 60%, #6ba8ff);
+  color: white;
+  padding: 12px 0;
+  width: 100%;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1.07rem;
+  font-weight: 600;
+  box-shadow: 0 2px 8px rgba(92, 99, 255, 0.11);
+  margin-top: 6px;
+  transition: background 0.22s, box-shadow 0.22s;
+  letter-spacing: 0.01em;
+}
+
+button:hover:enabled {
+  background: linear-gradient(90deg, #7c83ff 60%, #8cd2ff);
+  box-shadow: 0 4px 20px rgba(92, 99, 255, 0.16);
+}
+
+button:disabled {
+  background: #c6cbe6;
+  color: #fff;
+  cursor: not-allowed;
+}
+
+#result-container {
+  text-align: center;
+  color: #333;
+  font-size: 1.15rem;
+  margin-top: 18px;
+  margin-bottom: 4px;
+}
