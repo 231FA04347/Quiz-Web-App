@@ -30,9 +30,9 @@ quiz-game/
 
 ## 🛠️ How to Run Locally
 
-https://qwiz-game-app.netlify.app/
-```bash
 
+```bash
+https://qwiz-game-app.netlify.app/
 ```
 ## 🧩 Future Improvements
 🟡 Add scoring and result summary
